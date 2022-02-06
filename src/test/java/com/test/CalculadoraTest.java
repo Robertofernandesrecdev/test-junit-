@@ -1,9 +1,10 @@
 package com.test;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
 
-public class CalculadoraTest {
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class CalculadoraTest{
 
     @Test
     public void testSomar(){
